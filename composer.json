@@ -1,0 +1,19 @@
+{
+    "name": "goldbach-algorithms/novalnet-ag",
+    "description": "Novalnet AG by Goldbach",
+    "keywords": ["Symfony", "Novalnet", "NovalnetAG", "Payment", "Pay"],
+    "type": "library",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "GoldbachAlgorithms\\Novalnet\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Gustavo Alves 😎",
+            "email": "gustavoalves.a7@gmail.com",
+            "homepage": "https://github.com/Goldbach07"
+        }
+    ]
+}
