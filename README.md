@@ -127,15 +127,15 @@ $refund = $novalnet->refund(
 ```php
 # success returns
 stdClass Object (
-     [status] => 'success'
-     [tid] => '14533600047325226'
-     [refunded_amount] => '200'
+     [status] => "success"
+     [tid] => "14533600047325226"
+     [refunded_amount] => "200"
 )
 
 # error return
 stdClass Object (
-     [status] => 'error'
-     [message] => 'Amount larger than zero required'
+     [status] => "error"
+     [message] => "Amount larger than zero required"
 )
 ```
 
