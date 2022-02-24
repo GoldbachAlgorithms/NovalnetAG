@@ -92,6 +92,7 @@ $payment_link = $novalnet->getLink();
 stdClass Object (
      [status] => "success"
      [link] => "https://paygate.novalnet.de/nn/d8884c8c299cfdd7232964e5fe788849"
+     [secret] => "d8884c8c299cfdd7232964e5fe788849"
 )
 
 # error return
