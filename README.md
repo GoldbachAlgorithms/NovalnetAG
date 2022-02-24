@@ -87,6 +87,7 @@ $payment_link = $novalnet->getLink();
 ```
 
 ### Transaction return
+After payment, a unique code will be generated that will be returned along with the secret that is the identification of the payment page generated previously
 ```php
 # success returns
 stdClass Object (
