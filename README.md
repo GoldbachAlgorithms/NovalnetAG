@@ -90,14 +90,14 @@ $payment_link = $novalnet->getLink();
 ```php
 # success returns
 stdClass Object (
-     [status] => success
-     [link] => https://paygate.novalnet.de/nn/d8884c8c299cfdd7232964e5fe788849
+     [status] => "success"
+     [link] => "https://paygate.novalnet.de/nn/d8884c8c299cfdd7232964e5fe788849"
 )
 
 # error return
 stdClass Object (
-     [status] => error
-     [link] => Invalid payment type or payment type inactive
+     [status] => "error"
+     [link] => "Invalid payment type or payment type inactive"
 )
 ```
 
