@@ -18,7 +18,7 @@ composer require goldbach-algorithms/novalnet-ag
 ## Usage
 
 ### Transaction
-To execute a transaction it is necessary to assign the configuration keys of your Novalnet account. Then configure customer, billing address and payment data.  At the end, a link will be generated to the payment page to which the customer must be redirected to complete their purchase.
+To execute a transaction it is necessary to assign the configuration keys of your Novalnet account. Then configure customer, billing address and payment data.  At the end, a link will be generated to the payment page to which the customer must be redirected to complete their purchase. The payment links expire after 45 minutes.
 ```php
 # add use Novalnet
 use GoldbachAlgorithms\Novalnet\Novalnet;
