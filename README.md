@@ -114,7 +114,7 @@ use GoldbachAlgorithms\Novalnet\Novalnet;
 $novalnet = new Novalnet();
 
 # set account payment key
-$novalnet->setPaymentKey('2cbd9c540641923027adb8ab89decc05');
+$novalnet->setPaymentKey('YOUR_PAYMENT_KEY');
 
 # config refund data
 $refund = $novalnet->refund(
