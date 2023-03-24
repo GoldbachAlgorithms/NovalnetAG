@@ -144,4 +144,4 @@ stdClass Object (
 ## License
 [MIT](https://choosealicense.com/licenses/mit/)
 
-Copyright © 2021 [Goldbach Algorithms](https://github.com/GoldbachAlgorithms/NovalnetAG/blob/main/LICENSE)
+Copyright © 2023 [Goldbach Algorithms](https://github.com/GoldbachAlgorithms/NovalnetAG/blob/main/LICENSE)
